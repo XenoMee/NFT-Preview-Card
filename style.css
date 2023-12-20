@@ -7,10 +7,16 @@
 
 body {
     margin: 0;
+    display: grid;
+    place-content: center;
     background-color: hsl(217, 54%, 11%);
     font-family: 'Outfit', sans-serif;
     line-height: 1.5;
     color: white;
+}
+
+.nft-container{
+
 }
 
 .attribution {
