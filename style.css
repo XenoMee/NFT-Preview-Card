@@ -51,6 +51,15 @@ main{
     align-items: center;
 }
 
+.nft-info.has-flex{
+    justify-content: space-between;
+}
+
+.nft-price,
+.nft-time-left{
+    display: inline-block;
+}
+
 .attribution {
   font-size: 0.8rem;
   text-align: center;
