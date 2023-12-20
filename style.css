@@ -140,6 +140,7 @@ hr{
 
     .nft-image:active .icon{
         display: block;
+        z-index: 1;
     }
 
     .nft-image:active::after{
