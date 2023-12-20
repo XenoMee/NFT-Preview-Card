@@ -49,6 +49,7 @@ main{
 .has-flex{
     display: flex;
     align-items: center;
+    gap: .5rem;
 }
 
 .nft-info.has-flex{
@@ -58,6 +59,7 @@ main{
 .nft-price,
 .nft-time-left{
     display: inline-block;
+    margin-bottom: 0;
 }
 
 .attribution {
