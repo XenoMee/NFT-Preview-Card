@@ -10,7 +10,7 @@ body {
     background-color: hsl(217, 54%, 11%);
     font-family: 'Outfit', sans-serif;
     line-height: 1.5;
-    color: white;
+    color: hsl(215, 51%, 70%);
 }
 
 main{
@@ -60,6 +60,14 @@ main{
 .nft-time-left{
     display: inline-block;
     margin-bottom: 0;
+}
+
+.nft-price{
+    color:hsl(178, 100%, 50%);
+}
+
+.nft-time-left{
+    color: hsl(215, 51%, 70%);
 }
 
 hr{
