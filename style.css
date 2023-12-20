@@ -95,6 +95,8 @@ hr{
 
 .author-picture{
     max-width: 2rem;
+    border-radius: 50%;
+    border: .1rem solid white;
 }
 
 .author-copyright{
