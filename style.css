@@ -132,6 +132,12 @@ hr{
         font-size: 1.5rem;
     }
 
+    .nft-title:active,
+    .author-copyright span:active{
+        color:hsl(178, 100%, 50%);
+        cursor:pointer;
+    }
+
     .nft-description{
         font-size: 1.1rem;
     }
