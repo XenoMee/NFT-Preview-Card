@@ -138,9 +138,9 @@ hr{
         max-width: 22rem;
     }
 
-   .icon{
-    display: inline-block;
-   }
+    .nft-image:active .icon{
+        display: inline-block;
+    }
 
     .nft-title{
         font-size: 1.5rem;
