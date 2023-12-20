@@ -41,10 +41,8 @@ main{
 }
 
 .nft-image{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+    display: grid;
+    place-items: center;
     position: relative;
     margin-bottom: 1rem;
 }
