@@ -33,6 +33,7 @@ main{
 }
 
 .nft-container{
+    position: relative;
     max-width: 20rem;
     background-color: hsl(216, 50%, 16%);
     border-radius: 1rem;
@@ -126,6 +127,16 @@ hr{
 
     .nft-container{
         max-width: 22rem;
+    }
+
+    .nft-image:active{
+        content: '';
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background-color: hsl(178, 100%, 50%);
     }
 
     .nft-title{
