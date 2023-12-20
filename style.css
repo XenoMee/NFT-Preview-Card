@@ -37,7 +37,9 @@ main{
     object-fit: cover;
 }
 
-
+.nft-title{
+    font-size: 1.4rem;
+}
 
 .attribution {
   font-size: 0.8rem;
