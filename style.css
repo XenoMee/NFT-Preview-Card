@@ -41,6 +41,11 @@ main{
     font-size: 1.4rem;
 }
 
+.nft-description{
+    color: hsl(215, 51%, 70%);
+    font-weight: 300;
+}
+
 .attribution {
   font-size: 0.8rem;
   text-align: center;
