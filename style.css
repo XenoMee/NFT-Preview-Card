@@ -127,4 +127,18 @@ hr{
     .nft-container{
         max-width: 22rem;
     }
+
+    .nft-title{
+        font-size: 1.5rem;
+    }
+
+    .nft-description{
+        font-size: 1.1rem;
+    }
+
+    .nft-price,
+    .nft-time-left,
+    .author-copyright{
+        font-size: 1rem;
+    }
 }
