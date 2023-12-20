@@ -58,6 +58,7 @@ main{
 
 .icon{
     position: absolute;
+    display: none;
 }
 
 .nft-title{
@@ -137,15 +138,9 @@ hr{
         max-width: 22rem;
     }
 
-    .nft-image:active{
-        content: '';
-        position: absolute;
-        top: 0;
-        left: 0;
-        width: 100%;
-        height: 100%;
-        background-color: hsl(178, 100%, 50%);
-    }
+   .icon{
+    display: inline-block;
+   }
 
     .nft-title{
         font-size: 1.5rem;
