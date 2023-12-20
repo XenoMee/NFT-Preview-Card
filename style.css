@@ -6,14 +6,17 @@
 }
 
 body {
-    min-height: 100svh;
     margin: 0;
-    display: grid;
-    place-content: center;
     background-color: hsl(217, 54%, 11%);
     font-family: 'Outfit', sans-serif;
     line-height: 1.5;
     color: white;
+}
+
+main{
+    min-height: 100svh;
+    display: grid;
+    place-content: center;
 }
 
 .nft-container{
