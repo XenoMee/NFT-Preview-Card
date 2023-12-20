@@ -46,6 +46,11 @@ main{
     font-weight: 300;
 }
 
+.has-flex{
+    display: flex;
+    align-items: center;
+}
+
 .attribution {
   font-size: 0.8rem;
   text-align: center;
