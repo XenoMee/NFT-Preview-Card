@@ -89,6 +89,10 @@ hr{
     border-color: hsla(215, 32%, 27%, .4);
 }
 
+.nft-author.has-flex{
+    gap: 1rem;
+}
+
 .author-picture{
     max-width: 2rem;
 }
