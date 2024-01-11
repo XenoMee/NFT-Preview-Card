@@ -1,5 +1,22 @@
 @import url("https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&display=swap");
 
+:root{
+    --clr-primary-300: hsl(215, 51%, 70%);
+    --clr-primary-500: hsl(178, 100%, 50%);
+    --clr-secondary-100: hsl(0, 0%, 100%);
+    --clr-neutral-900: hsl(217, 54%, 11%);
+    --clr-neutral-800: hsl(216, 50%, 16%);
+    --clr-neutral-700: hsl(215, 32%, 27%);
+
+    --ff-base: 'Outfit', sans-serif;
+
+    --fs-default: 1.125rem;
+
+    --fw-light: 300;
+    --fw-regular: 400;
+    --fw-bold: 600;
+}
+
 /* More intuitive box-sizing model */
 *,
 *::after,
