@@ -32,7 +32,7 @@ main{
     place-content: center;
 }
 
-.nft-container{
+.nft-card{
     max-width: 20rem;
     background-color: hsl(216, 50%, 16%);
     border-radius: 1rem;
@@ -40,14 +40,14 @@ main{
     box-shadow: 0rem 1.5rem 0rem 1rem hsla(216, 50%, 5%, .1), 0rem -1rem 0rem 1rem hsla(216, 50%, 5%, .1);
 }
 
-.nft-image{
+.nft-card__image{
     display: grid;
     place-items: center;
     position: relative;
     margin-bottom: 1rem;
 }
 
-.nft-image-equilibrium{
+.nft-equilibrium{
     display: block;
     max-width: 100%;
     border-radius: .5rem;
@@ -59,12 +59,12 @@ main{
     display: none;
 }
 
-.nft-title{
+.nft-card__title{
     font-size: 1.3rem;
     color: white;
 }
 
-.nft-description{
+.nft-card__description{
     color: hsl(215, 51%, 70%);
     font-weight: 300;
 }
@@ -75,16 +75,9 @@ main{
     gap: .5rem;
 }
 
-.nft-info.has-flex{
+.nft-card__details{
     justify-content: space-between;
     margin-bottom: 1rem;
-}
-
-.nft-price,
-.nft-time-left{
-    display: inline-block;
-    margin-bottom: 0;
-    font-size: .9rem
 }
 
 .nft-price{
@@ -99,22 +92,18 @@ hr{
     border-color: hsla(215, 32%, 27%, .4);
 }
 
-.nft-author.has-flex{
-    gap: 1rem;
-}
-
-.author-picture{
+.creator-profile-picture{
     max-width: 2rem;
     border-radius: 50%;
     border: .1rem solid white;
 }
 
-.author-copyright{
+.creator-copyright{
     margin-bottom: 0;
     font-size: .9rem;
 }
 
-.author-copyright span{
+.creator-copyright span{
     color: white;
 }
 
