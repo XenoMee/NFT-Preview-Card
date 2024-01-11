@@ -130,9 +130,9 @@ body {
   gap: 0;
 }
 
-.nft-card__details div{
+/* .nft-card__details div{
     gap: .5rem;
-}
+} */
 
 .nft-price {
   color: var(--clr-primary-500);
@@ -167,7 +167,12 @@ hr {
     display: flex;
     align-items: center;
     gap: var(--content-spacing);
-  }  
+  }
+
+.gap-sm{
+    --content-spacing: .5rem;
+    gap: var(--content-spacing);
+}
 
 @media (min-width: 1000px) {
 
