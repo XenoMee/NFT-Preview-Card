@@ -92,11 +92,11 @@ hr{
     border-color: hsla(215, 32%, 27%, .4);
 }
 
-.creator-profile-picture{
+/* .creator-profile-picture{
     max-width: 2rem;
     border-radius: 50%;
     border: .1rem solid white;
-}
+} */
 
 .creator-copyright{
     margin-bottom: 0;
