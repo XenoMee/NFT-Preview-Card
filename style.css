@@ -80,7 +80,7 @@ body {
 }
 
 .nft-card {
-    /* --content-spacing: .5rem; */
+    --content-spacing: .5rem;
 
   max-width: 20rem;
   background-color: var(--clr-neutral-800);
