@@ -187,8 +187,10 @@ hr {
     cursor: pointer;
   }
 
-  .nft-title {
-    font-size: 1.5rem;
+  .nft-card__title:is(:hover, :focus),
+  .creator-name:is(:hover, :focus){
+    color: var(--clr-primary-500);
+    cursor: pointer;
   }
 
 }
