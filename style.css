@@ -1,20 +1,20 @@
 @import url("https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&display=swap");
 
-:root{
-    --clr-primary-300: hsl(215, 51%, 70%);
-    --clr-primary-500: hsl(178, 100%, 50%);
-    --clr-secondary-100: hsl(0, 0%, 100%);
-    --clr-neutral-900: hsl(217, 54%, 11%);
-    --clr-neutral-800: hsl(216, 50%, 16%);
-    --clr-neutral-700: hsl(215, 32%, 27%);
+:root {
+  --clr-primary-300: hsl(215, 51%, 70%);
+  --clr-primary-500: hsl(178, 100%, 50%);
+  --clr-secondary-100: hsl(0, 0%, 100%);
+  --clr-neutral-900: hsl(217, 54%, 11%);
+  --clr-neutral-800: hsl(216, 50%, 16%);
+  --clr-neutral-700: hsl(215, 32%, 27%);
 
-    --ff-base: 'Outfit', sans-serif;
+  --ff-base: "Outfit", sans-serif;
 
-    --fs-default: 1.125rem;
+  --fs-default: 1.125rem;
 
-    --fw-light: 300;
-    --fw-regular: 400;
-    --fw-bold: 600;
+  --fw-light: 300;
+  --fw-regular: 400;
+  --fw-bold: 600;
 }
 
 /* More intuitive box-sizing model */
@@ -61,7 +61,6 @@ h6 {
   overflow-wrap: break-word;
 }
 
-
 /* Reduce heading space for larger font sizes */
 h1 {
   line-height: 1.2;
@@ -79,8 +78,10 @@ body {
   place-content: center;
 }
 
+/* NFT card styling */
+
 .nft-card {
-    --content-spacing: .5rem;
+  --content-spacing: 1rem;
 
   max-width: 20rem;
   background-color: var(--clr-neutral-800);
@@ -107,6 +108,11 @@ body {
   display: none;
 }
 
+.nft-card__content {
+  display: grid;
+  gap: var(--content-spacing);
+}
+
 .nft-card__title {
   font-size: 1.3rem;
   color: var(--clr-secondary-100);
@@ -116,14 +122,13 @@ body {
   font-weight: var(--fw-light);
 }
 
-.has-flex {
-  display: flex;
-  align-items: center;
-  gap: var(--content-spacing);
-}
-
 .nft-card__details {
   justify-content: space-between;
+  gap: 0;
+}
+
+.nft-card__details div{
+    gap: .5rem;
 }
 
 .nft-price {
@@ -135,19 +140,31 @@ hr {
   border-color: var(--clr-neutral-700);
 }
 
-.creator-profile-picture{
-    max-width: 2rem;
-    border-radius: 50%;
-    border: .1rem solid var(--clr-secondary-100);
+.nft-card__creator {
+  display: inline-flex;
+  gap: var(--content-spacing);
+}
+
+.creator-profile-picture {
+  max-width: 2rem;
+  border-radius: 50%;
+  border: 0.1rem solid var(--clr-secondary-100);
 }
 
 .creator-copyright {
-  font-size: .9rem;
+  font-size: 0.9rem;
 }
 
 .creator-copyright span {
   color: var(--clr-secondary-100);
 }
+
+/* Utility classes */
+.has-flex {
+    display: flex;
+    align-items: center;
+    gap: var(--content-spacing);
+  }  
 
 @media (min-width: 768px) {
   main {
