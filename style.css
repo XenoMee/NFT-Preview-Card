@@ -131,6 +131,10 @@ body {
   justify-content: space-between;
 }
 
+.nft-card__details > * {
+  gap: var(--spacer);
+}
+
 .nft-price {
   color: var(--clr-primary-500);
   font-weight: var(--fw-bold);
