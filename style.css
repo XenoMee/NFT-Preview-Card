@@ -126,6 +126,8 @@ body {
 }
 
 .nft-card__details {
+  /* --spacer: .5rem; */
+
   justify-content: space-between;
 }
 
@@ -170,11 +172,6 @@ hr {
     display: flex;
     align-items: center;
   }
-
-.gap-sm{
-    --content-spacing: .5rem;
-    gap: var(--content-spacing);
-}
 
 @media (min-width: 1000px) {
 
