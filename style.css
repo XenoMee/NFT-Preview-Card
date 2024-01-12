@@ -126,7 +126,7 @@ body {
 }
 
 .nft-card__details {
-  /* --spacer: .5rem; */
+  --spacer: .5rem;
 
   justify-content: space-between;
 }
