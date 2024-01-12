@@ -127,12 +127,19 @@ body {
 
 .nft-card__details {
   justify-content: space-between;
-  gap: 0;
 }
 
 .nft-price {
   color: var(--clr-primary-500);
   font-weight: var(--fw-bold);
+}
+
+.nft-price[data-icon="cryptocurrency"]::before{
+  content: '';
+  background-image: url("./images/icon-ethereum.svg");
+  background-repeat: no-repeat;
+  width: 13px;
+  height: 17px;
 }
 
 hr {
@@ -162,7 +169,6 @@ hr {
 .has-flex {
     display: flex;
     align-items: center;
-    gap: var(--content-spacing);
   }
 
 .gap-sm{
